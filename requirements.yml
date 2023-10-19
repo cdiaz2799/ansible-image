@@ -1,0 +1,18 @@
+---
+# Ansible Galaxy required collections
+collections:
+  - name: ansible.posix
+  - name: ansible.windows
+  - name: community.general
+  - name: community.network
+  - name: community.windows
+  - name: chocolatey.chocolatey
+  - name: nextcloud.admin
+  - name: onepassword.connect
+
+#Ansible Galaxy required roles
+roles:
+  - name: datadog.datadog
+  - name: geerlingguy.postgresql
+  - name: nginxinc.nginx
+...
